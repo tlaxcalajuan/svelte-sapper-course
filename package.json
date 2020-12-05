@@ -1,0 +1,26 @@
+{
+  "name": "pugstagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build"
+  },
+  "author": "Oscar Barajas <oscar@platzi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "polka": "^0.5.2",
+    "sirv": "^1.0.7"
+  },
+  "devDependencies": {
+    "svelte": "^3.18.2",
+    "babel-loader": "^8.0.6",
+    "sapper": "^0.28.10",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.41.6"
+  }
+}
