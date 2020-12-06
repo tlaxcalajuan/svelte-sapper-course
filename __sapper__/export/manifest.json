@@ -1,0 +1,22 @@
+{
+    "background_color":"#ffffff",
+    "theme_color":"#333333",
+    "name": "pugstagram",
+    "short_name":"pgstm",
+    "display":"minimal-ui",
+    "start_url": "/",
+    "icons": [
+        {
+            "src":"logo-192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+            
+        },
+        {
+            "src":"logo-512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+            
+        }
+    ]
+}
